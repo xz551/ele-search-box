@@ -5,7 +5,7 @@
     "typescript",
     "vue3"
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "author": "zhangzhigang 395261209",
   "types": "index.d.ts",

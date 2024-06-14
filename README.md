@@ -1,20 +1,26 @@
 # 基于element-plus 封装 多功能搜索盒子
 ![](xiaoguo.gif)
 
+# 安装
+
+```node
+    npm install ele-search-box
+```
+
  # 使用方法
 
 ```html
 <template>
     <div >
-        <SearchBox :fields="fields" v-model="searchModel" @submit="submit" autoSubmit iconSubmit></SearchBox>
+        <EleSearchBox :fields="fields" v-model="searchModel" @submit="submit" autoSubmit iconSubmit></EleSearchBox>
         {{searchModel}}
     </div>
 </template>
 
 <script setup lang="ts">
-import SearchBox from "search-box";
-import {IFormItem} from "search-box/src/interface";
-import {EFormItemType} from "search-box/src/types";
+import EleSearchBox from "ele-search-box";
+import {IFormItem} from "ele-search-box/src/interface";
+import {EFormItemType} from "ele-search-box/src/types";
 import {ref} from "vue";
 
 const searchModel = ref()
