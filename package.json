@@ -5,7 +5,7 @@
     "typescript",
     "vue3"
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "author": "zhangzhigang 395261209",
   "types": "index.d.ts",
@@ -16,7 +16,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "users": "^2.0.0"
   },
   "peerDependencies": {
     "@vue/composition-api": "^1.0.0-rc.1"
